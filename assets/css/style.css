@@ -1,8 +1,9 @@
 body {
+    width: 100%;
     background-image: url(../image/vector.jpg);
     background-attachment: fixed; 
     padding-top: 70px;
-    
+
 }
 
 .bord {
@@ -22,12 +23,13 @@ article {
 
 h5 {
     font-family: concert one;
-    font-size: 48px; 
+    font-size: 42px; 
     color: rgb(23, 167, 23);
    
 }
 
 .img-thumbnail {
+    width: 250px;
     background-color: gray; 
     float: left;
 
@@ -81,3 +83,12 @@ img:active {
     color: royalblue;
 
 }
+
+@media screen and (min-width: 768px) { 
+    body {
+        
+    }
+} 
+
+
+
