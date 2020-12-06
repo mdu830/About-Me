@@ -1,0 +1,83 @@
+body {
+    background-image: url(../image/vector.jpg);
+    background-attachment: fixed; 
+    padding-top: 70px;
+    
+}
+
+.bord {
+    border: 3px solid darkgray;
+}
+
+.nav-text {
+    font-family: concert one;
+    font-size: x-large;
+
+}
+
+article {
+    background-color: gainsboro;
+     
+}
+
+h5 {
+    font-family: concert one;
+    font-size: 48px; 
+    color: rgb(23, 167, 23);
+   
+}
+
+.img-thumbnail {
+    background-color: gray; 
+    float: left;
+
+}
+
+p {
+    font-family: concert one;
+    font-size: medium;
+
+}
+
+.card {
+    background-color: darkgrey; 
+    border-color: rgb(23, 167, 23) ;
+
+}
+
+
+#bs-link {
+    color: rgb(23, 167, 23);
+    text-decoration: underline;
+    
+}
+
+.nav-text:hover {
+    background-color: darkgray;
+    
+}
+
+.nav-text:active {
+    background-color: rgb(23, 167, 23);
+}
+
+img:hover {
+    background-color: rgb(23, 167, 23);
+
+}
+
+img:active {
+    background-color: rgb(196, 255, 196);
+
+}
+
+#bs-link:hover {
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+#bs-link:active {
+    color: royalblue;
+
+}
