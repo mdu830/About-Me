@@ -50,7 +50,7 @@ p {
 }
 
 
-#bs-link {
+.bs-link {
     color: rgb(23, 167, 23);
     text-decoration: underline;
     
@@ -77,13 +77,13 @@ img:active {
 
 }
 
-#bs-link:hover {
+.bs-link:hover {
     color: aqua;
     text-decoration: underline;
 
 }
 
-#bs-link:active {
+.bs-link:active {
     color: royalblue;
 
 }
