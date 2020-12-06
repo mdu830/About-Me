@@ -1,13 +1,11 @@
+/* This is the style.css for the "About-Me" webpage (index.html portfolio.html and contact.html) */
+
 body {
     width: 100%;
     background-image: url(../image/vector.jpg);
     background-attachment: fixed; 
     padding-top: 70px;
 
-}
-
-.bord {
-    border: 3px solid darkgray;
 }
 
 .nav-text {
@@ -19,6 +17,10 @@ body {
 article {
     background-color: gainsboro;
      
+}
+
+.bord {
+    border: 3px solid darkgray;
 }
 
 h5 {
@@ -54,6 +56,8 @@ p {
     
 }
 
+/* Pseudo Classes */
+
 .nav-text:hover {
     background-color: darkgray;
     
@@ -83,6 +87,8 @@ img:active {
     color: royalblue;
 
 }
+
+/* Media Queries */
 
 @media screen and (min-width: 768px) { 
     body {
