@@ -2,6 +2,12 @@
 
 # About-Me
 
+<ul>
+
+This is a simple "about me" webpage for you to get to know me a little better :-) 
+
+</ul>
+
 
 ## Changes and improvements:
 
