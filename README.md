@@ -33,7 +33,7 @@ Added Sticky footer
 
 <ul>
 
-Organized css file to completement where html elements are.
+Organized css file to complement where html elements are.
 
 Added commenting
 
