@@ -1,12 +1,19 @@
 /* This is the style.css for the "About-Me" webpage (index.html portfolio.html and contact.html) */
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     width: 100%;
     background-image: url(../image/vector.jpg);
     background-attachment: fixed; 
-    padding-top: 70px;
+    padding-top: 50px;
+    margin-bottom: 75px; /* Margin bottom by footer height */
 
 }
+
 
 .nav-text {
     font-family: concert one;
@@ -30,6 +37,7 @@ h5 {
    
 }
 
+
 .img-thumbnail {
     width: 250px;
     background-color: gray; 
@@ -43,18 +51,21 @@ p {
 
 }
 
-.card {
-    background-color: darkgrey; 
-    border-color: rgb(23, 167, 23) ;
-
-}
-
-
 .bs-link {
     color: rgb(23, 167, 23);
     text-decoration: underline;
     
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 55px; /* Set the fixed height of the footer here */
+    line-height: 50px; /* Vertically center the text there */
+    background-color: gainsboro;
+    text-align: center;
+  }
 
 /* Pseudo Classes */
 
