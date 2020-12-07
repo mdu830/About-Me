@@ -25,6 +25,8 @@ Added commenting
 
 Used <a href=https://validator.w3.org/>W3 Validator<a> to corrent any html issues
   
+Added Sticky footer
+  
 </ul>
   
 ### style.css
