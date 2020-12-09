@@ -51,6 +51,11 @@ p {
 
 }
 
+#fb {
+    width: 40px;
+    height: auto;
+}
+
 .bs-link {
     color: rgb(23, 167, 23);
     text-decoration: underline;
