@@ -46,7 +46,7 @@ $(document).ready(function(){
         description2.text("I currently design, build, fly and sell drones online. It is one of the most rewarding feelings to fly your projects after they have been completed.");
         description3.text("Along with building drones, I also enjoy 3D Printing my autocad designs.");
         description4.text("I also work on various other electronic devices includes: PC repair, Iphone and Android repair, and Network penetration testing.");
-        col2.append(description1, description2, description3, description4).hide(50).show(1000);
+        col2.append(description1, description2, description3, description4).hide(150).show(1000);
 
     }
 
