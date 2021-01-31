@@ -10,7 +10,7 @@ $(document).ready(function(){
 
         var media = $("<div>");
         media.attr("class", "media-body bord");
-        article.append(media);
+        article.append(media).fadeIn();
     
         var container = $("<div>");
         container.attr("class", "container");
@@ -35,7 +35,7 @@ $(document).ready(function(){
         var image = $("<img>");
         image.attr("src", "assets/image/small.jpg");
         image.attr("class", "img-fluid img-thumbnail h-auto");
-        col1.append(image);
+        col1.append(image).hide(50).show("slow");
     
         var description1 = $("<p>");
         var description2 = $("<p>");
@@ -46,7 +46,7 @@ $(document).ready(function(){
         description2.text("I currently design, build, fly and sell drones online. It is one of the most rewarding feelings to fly your projects after they have been completed.");
         description3.text("Along with building drones, I also enjoy 3D Printing my autocad designs.");
         description4.text("I also work on various other electronic devices includes: PC repair, Iphone and Android repair, and Network penetration testing.");
-        col2.append(description1, description2, description3, description4);
+        col2.append(description1, description2, description3, description4).hide(50).show(1000);
 
     }
 
@@ -154,7 +154,7 @@ $(document).ready(function(){
             var col1Image = $("<img>");
             col1Image.attr("src", portfolioItems[i].image);
             col1Image.attr("class", "img-fluid img-thumbnail w-50 h-auto ml-2 mt-3 mr-2 mb-3");
-            col1Row2.append(col1Image);
+            col1Row2.append(col1Image).hide(50).show("slow");
 
             var col2Ptag1 = $("<p>");
             col2Ptag1.attr("class", "mt-3")
@@ -360,7 +360,7 @@ $(document).ready(function(){
 
     $("#aboutMeBtn").on("click", function() {
         $("#appendElements").fadeOut("slow", function(){
-            $("#appendElements").empty().hide().fadeIn();
+            $("#appendElements").empty();
             loadAboutMe()
         });
     });
