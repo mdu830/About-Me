@@ -15,6 +15,9 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
       <!-- style.css -->
       <link rel="stylesheet" href="assets/css/style.css">
+      <!-- jQuery -->
+      <script src="./assets/js/jquery-3.5.1.min.js"></script>
+
   </head>
 
   <body>
@@ -22,47 +25,28 @@
     <!-- Nav bar -->
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand nav-text" href="index.html">Mitchell Duncan</a>
+          <a class="navbar-brand nav-text" id="aboutMeBtn">Mitchell Duncan</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <nav class="collapse navbar-collapse text-right" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto pl-0">
               <li class="nav-item">
-                <a class="nav-link nav-text" href="portfolio.html">Portfolio</a>
+                <a class="nav-link nav-text" id="portfolioBtn">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-text" href="contact.html">Contact</a>
+                <a class="nav-link nav-text" id="contactBtn">Contact</a>
               </li>
             </ul>
           </nav>
       </nav>
 
-      <!-- About me -->
+      <!-- About Me -->
+      <!-- Portfolio -->
+      <!-- Contact Me -->
 
-      <article class="media m-5 mt-5 mb-4 bord">
-        <div class="media-body m-1">
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-12">
-                    <h5 class="mt-4 mb-4">About Me</h5>
-                  </div>
-                </div>
+      <article id="appendElements" class="media m-5 mt-5">
 
-                <div class="row">
-                  <div class="col-md-4 mb-3">
-                    <img src="assets/image/small.jpg" alt="Mitchell" title="Mitchell" class="img-fluid img-thumbnail h-auto">
-                  </div>
-
-                  <div class="col-md-8 mb-5">
-                    <p>I am a student in the UNC Programming Bootcamp course.</p>
-                    <p>I currently design, build, fly and sell drones online. It is one of the most rewarding feelings to fly your projects after they have been completed.</p>
-                    <p>Along with building drones, I also enjoy 3D Printing my autocad designs.</p>
-                    <p>I also work on various other electronic devices includes: PC repair, Iphone and Android repair, and Network penetration testing.</p>
-                  </div>
-                </div>                
-             </div>
-         </div>
       </article>
 
       <!-- Footer -->
@@ -72,5 +56,6 @@
           <span class="text-muted"> &#169; Mitchell Duncan 2020 with the help of <a class="bs-link" href="https://getbootstrap.com">Bootstrap</a></span>
         </div>
       </footer>
+      <script src="./assets/js/aboutMe.js"></script>
   </body>
 </html>

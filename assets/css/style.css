@@ -62,6 +62,14 @@ p {
     
 }
 
+/* #name-input, #email-input, #textarea { 
+    width: 550px;
+} */
+
+.submit {
+    float: right;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
