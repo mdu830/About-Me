@@ -109,6 +109,15 @@ $(document).ready(function(){
 
             },
             {
+                image: "assets/image/eatdaburger.gif",
+                pTag1: "Eat Da Burger is a web application (deployed on Heroku) that utilizes Express, mySQL, orm, Handlebars, and Node.js",
+                pTag2: "Here is a link to ",
+                link: "https://eat-da-booger.herokuapp.com/burgers",
+                linkText: "Eat-Da-Burger"
+
+
+            },
+            {
                 image: "assets/image/large-quadcopter.jpeg",
                 pTag1: "This is the Pixhawk 4 Autopilot that i built, designed and programmed. It has several features. Of the most desired are the Return To Home, the long flight times (about 30 minutes), and the 4k FPV video camera.",
                 pTag2: "Here is an example video from a test flight we did: ",
@@ -332,13 +341,7 @@ $(document).ready(function(){
         submitBtn.attr("class", "btn btn-primary ml-5 mb-2 submit");
         submitBtn.text("Submit");
         coldiv.append(submitBtn);
-
-
-
-
-
-
-
+        
     }
 
     loadAboutMe();
