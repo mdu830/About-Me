@@ -16,29 +16,10 @@ This is a simple "about me" webpage for you to get to know me a little better :-
 ### index.html portfolio.html contact.html
 
 <ul>
-  
-Used a consistent navbar accross all pages
+ 
+ rewrote portfolio, about me, and contact me html documents into dynamic jQuery elements
 
-Used bootstrap elements, grid system to add page responsiveness
-
-Added semantic html
-
-Added commenting 
-
-Used <a href=https://validator.w3.org/>W3 Validator<a> to corrent any html issues
-  
-Added Sticky footer
+ added jQuery animations for more smooth navigation experience
   
 </ul>
   
-### style.css
-
-<ul>
-
-Organized css file to complement where html elements are.
-
-Added commenting
-
-Added media query for the correct page resizing on most devices.
-
-</ul>
