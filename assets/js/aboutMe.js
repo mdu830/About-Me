@@ -55,7 +55,7 @@ $(document).ready(function(){
 
         var mediaBody = $("<div>");
         mediaBody.attr("class", "media-body bord p-4");
-        article.append(mediaBody);
+        article.append(mediaBody).fadeIn();;
 
         var row1 = $("<div>");
         row1.attr("class", "row");
@@ -76,44 +76,56 @@ $(document).ready(function(){
                 pTag1: "This is a random password generator I made with vanilla Javascript, HTML, and CSS",
                 pTag2: "Here is a link to the ",
                 link:  "https://mdu830.github.io/Password-Gen/",
-                linkText: "Password Generator"
+                linkText: "Password Generator",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/mdu830/Password-Gen"
             },
             {
                 image: "assets/image/codingQuiz.png",
                 pTag1: "Here is a small coding quiz game i also made with vanilla javascript, html and css.",
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/CodingQuizGame/", 
-                linkText: "Coding Quiz"
+                linkText: "Coding Quiz",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/mdu830/CodingQuizGame"
             },
             {
                 image: "assets/image/dayPlanner.png",
                 pTag1: "This is a nice Day-Planner where I utilized jQuery and Local storage.",
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/Day-Planner/", 
-                linkText: "Day-Planner"
+                linkText: "Day-Planner",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/mdu830/Day-Planner"
             },
             {
                 image: "assets/image/weatherDashboard.png",
                 pTag1: "This is an easy to use Weather-Dashboard I made. Using the Open Weather Map API to gather weather information. Other technologies used: Javascript, jQuery, HTML, CSS, Bootstrap, Google Fonts.",
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/Weather-Dashboard/",
-                linkText: "Weather Dashboard"
-            },
-            {
-                image: "assets/image/travelBuddy.png",
-                pTag1: " Travel Buddy is a project I contributed to. It is a web application that utilizes multiple APIs to help the user find the best prices on flights and hotels.",
-                pTag2: "Here is a link to ",
-                link: "http://kmh8827.github.io/project1-team2",
-                linkText: "Travel Buddy"
-
-
+                linkText: "Weather Dashboard",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/mdu830/Weather-Dashboard"
             },
             {
                 image: "assets/image/eatdaburger.gif",
                 pTag1: "Eat Da Burger is a web application (deployed on Heroku) that utilizes Express, mySQL, orm, Handlebars, and Node.js",
                 pTag2: "Here is a link to ",
                 link: "https://eat-da-booger.herokuapp.com/burgers",
-                linkText: "Eat-Da-Burger"
+                linkText: "Eat-Da-Burger",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/mdu830/eat-da-burger"
+
+
+            },
+            {
+                image: "assets/image/travelBuddy.png",
+                pTag1: " Travel Buddy is a project I contributed to. It is a web application that utilizes multiple APIs to help the user find the best prices on flights and hotels.",
+                pTag2: "Here is a link to ",
+                link: "http://kmh8827.github.io/project1-team2",
+                linkText: "Travel Buddy",
+                pTag3: "Here is the link to the github repo ",
+                github: "https://github.com/kmh8827/project1-team2"
 
 
             },
@@ -163,7 +175,7 @@ $(document).ready(function(){
             var col1Image = $("<img>");
             col1Image.attr("src", portfolioItems[i].image);
             col1Image.attr("class", "img-fluid img-thumbnail w-50 h-auto ml-2 mt-3 mr-2 mb-3");
-            col1Row2.append(col1Image).hide(50).show("slow");
+            col1Row2.append(col1Image).fadeIn();
 
             var col2Ptag1 = $("<p>");
             col2Ptag1.attr("class", "mt-3")
@@ -173,17 +185,31 @@ $(document).ready(function(){
             var col2Ptag2 = $("<p>");
             col2Ptag2.text(portfolioItems[i].pTag2);
 
+            var col2Ptag3 = $("<p>");
+            col2Ptag3.text(portfolioItems[i].pTag3);
+
             var c2Anchor = $("<a>");
             c2Anchor.attr("href", portfolioItems[i].link);
             c2Anchor.attr("class", "bs-link");
             c2Anchor.text(portfolioItems[i].linkText);
 
+            var c2github = $("<a>");
+            c2github.attr("href", portfolioItems[i].github);
+            c2github.attr("class", "bs-link");
+            c2github.text(portfolioItems[i].github);
+
             col2Row2.append(col2Ptag1);
             col2Row2.append(col2Ptag2);
             col2Ptag2.append(c2Anchor);
+            col2Row2.append(col2Ptag3);
+            col2Ptag3.append(c2github);
 
 
+
+            
         };
+        
+
     }
 
     // contact me
