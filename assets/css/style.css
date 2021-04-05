@@ -37,6 +37,13 @@ h5 {
    
 }
 
+h6 {
+    font-family: concert one;
+    font-size: 27px; 
+    color: rgb(25, 65, 25);
+   
+}
+
 .img-thumbnail {
     width: 250px;
     background-color: gray; 
@@ -52,7 +59,7 @@ p {
 }
 
 .ico {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 

@@ -77,7 +77,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to the ",
                 link:  "https://mdu830.github.io/Password-Gen/",
                 linkText: "Password Generator",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/Password-Gen"
             },
             {
@@ -86,7 +86,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/CodingQuizGame/", 
                 linkText: "Coding Quiz",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/CodingQuizGame"
             },
             {
@@ -95,7 +95,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/Day-Planner/", 
                 linkText: "Day-Planner",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/Day-Planner"
             },
             {
@@ -104,7 +104,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to the ",
                 link: "https://mdu830.github.io/Weather-Dashboard/",
                 linkText: "Weather Dashboard",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/Weather-Dashboard"
             },
             {
@@ -113,7 +113,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to ",
                 link: "https://eat-da-booger.herokuapp.com/burgers",
                 linkText: "Eat-Da-Burger",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/eat-da-burger"
 
 
@@ -124,7 +124,7 @@ $(document).ready(function(){
                 pTag2: "Here is a link to ",
                 link: "http://kmh8827.github.io/project1-team2",
                 linkText: "Travel Buddy",
-                pTag3: "Here is the link to the github repo ",
+                pTag3: "Github repository: ",
                 github: "https://github.com/kmh8827/project1-team2"
 
 
@@ -159,17 +159,17 @@ $(document).ready(function(){
 
         for(i = 0; i < portfolioItems.length; i++) {
 
-            var row2 = $("<div>");
-            row2.attr("class", "row bord mt-2 mb-1");
-            mediaBody.append(row2);
+            var row3 = $("<div>");
+            row3.attr("class", "row bord mt-2 mb-1");
+            mediaBody.append(row3);
 
             var col1Row2 = $("<div>");
             col1Row2.attr("class", "col-lg");
-            row2.append(col1Row2);
+            row3.append(col1Row2);
 
             var col2Row2 = $("<div>");
             col2Row2.attr("class", "col-lg mr-4");
-            row2.append(col2Row2);
+            row3.append(col2Row2);
 
             
             var col1Image = $("<img>");
@@ -203,10 +203,7 @@ $(document).ready(function(){
             col2Ptag2.append(c2Anchor);
             col2Row2.append(col2Ptag3);
             col2Ptag3.append(c2github);
-
-
-
-            
+  
         };
         
 
@@ -227,147 +224,97 @@ $(document).ready(function(){
         row.attr("class", "row");
         container.append(row);
 
-        var col12 = $("<div>");
-        col12.attr("class", "col-12");
-        row.append(col12);
-
-        var col12Row = $("<div>");
-        col12Row.attr("class", "row");
-        col12.append(col12Row);
-
-        var col = $("<div>");
-        col.attr("class", "col ml-3");
-        col12Row.append(col);
-
-        var h5 = $("<h5>");
-        h5.attr("class", "mt-3 ml-2");
-        h5.text("Contact Me");
-        col.append(h5);
+        var col1 = $("<div>");
+        col1.attr("class", "col-9");
+        row.append(col1);
 
         var col2 = $("<div>");
-        col2.attr("class", "col-md-4");
-        col12Row.append(col2);
+        col2.attr("class", "col-3");
+        row.append(col2);
 
-        var colcol = $("<div>");
-        colcol.attr("class", "col mt-4 ml-5");
-        col2.append(colcol);
+        var h5 = $("<h5>");
+        h5.attr("class", "mt-3 mb-4");
+        h5.text("Contact Me: ");
+        col1.append(h5);
+
+        var row2 = $("<div>");
+        row2.attr("class", "row");
+        container.append(row2);
+
+        var row2col1 = $("<div>");
+        row2col1.attr("class", "col ml-5");
+        row2.append(row2col1);
+
+
+        var ifContact = $("<p>");
+        ifContact.attr("class", "ml-5")
+        ifContact.text("If you have any questions or would like to get in contact with me here is my contact information: ");
+        row2col1.append(ifContact);
+
+        var row3 = $("<div>");
+        row3.attr("class", "row");
+        container.append(row3);
+
+
+        var row3Col1 = $("<div>");
+        row3Col1.attr("class", "col-6");
+        row3.append(row3Col1);
+
+        var row3Col2 = $("<div>");
+        row3Col2.attr("class", "col-6");
+        row3.append(row3Col2);
+
         // github link
         var gitImg = $("<img>");
-        gitImg.attr("class", "ico");
+        gitImg.attr("class", "ico mt-3");
         gitImg.attr("src", "assets/image/icons/github.png");
 
         var gitLink = $("<a>");
         gitLink.attr("href", "https://github.com/mdu830");
 
-        colcol.append(gitLink);
+        col2.append(gitLink);
         gitLink.append(gitImg);
         // linkedin link
         var linkedInImg = $("<img>");
-        linkedInImg.attr("class", "ico");
+        linkedInImg.attr("class", "ico mt-3");
         linkedInImg.attr("src", "assets/image/icons/linkedin.png");
 
         var linkedInLink = $("<a>");
         linkedInLink.attr("href", "https://www.linkedin.com/in/mitchell-duncan-a466501bb");
 
-        colcol.append(linkedInLink);
+        col2.append(linkedInLink);
         linkedInLink.append(linkedInImg);
-        // facebook link
-        var facebookImg = $("<img>");
-        facebookImg.attr("class", "ico");
-        facebookImg.attr("src", "assets/image/icons/facebook.png");
+        // email mailto link
+        var emailImg = $("<img>");
+        emailImg.attr("class", "ico mt-3");
+        emailImg.attr("src", "assets/image/icons/email.png");
 
-        var facebookLink = $("<a>");
-        facebookLink.attr("href", "https://www.facebook.com/joe.duncan.589");
+        var emailLink = $("<a>");
+        emailLink.attr("href", "mailto:mdu830@yahoo.com");
 
-        colcol.append(facebookLink);
-        facebookLink.append(facebookImg);
-        // inputs
+        col2.append(emailLink);
+        emailLink.append(emailImg);
+        // listed email
+        var emailListed = $("<h6>");
+        emailListed.attr("class", "m-5")
+        emailListed.text("Email: ");
+        row3Col1.append(emailListed);
 
-        // name
-        var row0 = $("<div>");
-        row0.attr("class", "row");
-        mediaBody.append(row0);
+        var emailLink2 = $("<a>");
+        emailLink2.attr("class", "bs-link")
+        emailLink2.attr("href", "mailto:mdu830@yahoo.com");
+        emailLink2.text("mdu830@yahoo.com");
+        emailListed.append(emailLink2);
+        // listed phone number
+        var phoneListed = $("<h6>");
+        phoneListed.attr("class", "m-5")
+        phoneListed.text("Phone: ");
+        row3Col2.append(phoneListed);
 
-        col0 = $("<div>");
-        col0.attr("class", "col");
-        row0.append(col0);
-
-        var label = $("<label>");
-        label.attr("class", "ml-1 mt-5");
-        label.attr("for", "name-input");
-        label.text("Name");
-        col0.append(label);
-
-        var input = $("<input>");
-        input.attr("type", "text");
-        input.attr("class", "form-control mb-2");
-        input.attr("id", "name-input");
-        input.attr("placeholder", "Name");
-        col0.append(input);
-
-        // email
-        var row1 = $("<div>");
-        row1.attr("class", "row mt-n3");
-        mediaBody.append(row1);
-
-        col1 = $("<div>");
-        col1.attr("class", "col");
-        row1.append(col1);
-
-        var label = $("<label>");
-        label.attr("class", "ml-1 mt-3");
-        label.attr("for", "email-input");
-        label.text("Email");
-        col1.append(label);
-
-        var input = $("<input>");
-        input.attr("type", "text");
-        input.attr("class", "form-control  mb-2");
-        input.attr("id", "email-input");
-        input.attr("placeholder", "Email");
-        col1.append(input);
-
-        // message input and submit button
-        var row02 = $("<div>");
-        row02.attr("class", "row");
-        mediaBody.append(row02);
-
-        var col02 = $("<div>");
-        col02.attr("class", "col");
-        row02.append(col02);
-
-        var formGroup = $("<div>");
-        formGroup.attr("class", "form-group");
-        col02.append(formGroup);
-
-        var label02 = $("<label>");
-        label02.attr("for", "textarea");
-        formGroup.append(label02);
-
-        var textArea = $("<textarea>")
-        textArea.attr("class", "form-control");
-        textArea.attr("id", "textarea");
-        textArea.attr("placeholder", "message");
-        textArea.attr("rows", "3");
-        formGroup.append(textArea);
-
-        var row03 =$("<div>");
-        row03.attr("class", "row");
-        mediaBody.append(row03);
-
-        var col03 = $("<div>");
-        col03.attr("class", "col");
-        row03.append(col03);
-
-        var coldiv = $("<div>");
-        col03.append(coldiv);
-
-        var submitBtn = $("<button>");
-        submitBtn.attr("type", "submit");
-        submitBtn.attr("class", "btn btn-primary ml-5 mb-2 submit");
-        submitBtn.text("Submit");
-        coldiv.append(submitBtn);
-        
+        var phoneLink = $("<a>");
+        phoneLink.attr("class", "bs-link")
+        phoneLink.text("(252) 207-7476");
+        phoneListed.append(phoneLink);
     }
 
     loadAboutMe();
