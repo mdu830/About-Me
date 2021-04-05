@@ -108,6 +108,42 @@ $(document).ready(function(){
                 github: "https://github.com/mdu830/Weather-Dashboard"
             },
             {
+                image: "assets/image/readmeGen.gif",
+                pTag1: "This is a small node.js Readme Generator designed to help developers quickly generate a quality readme markdown for their projects.",
+                pTag2: "",
+                link: "",
+                linkText: "",
+                pTag3: "Github repository: ",
+                github: "https://github.com/mdu830/Readme-Generator"
+            },
+            {
+                image: "assets/image/teamProfileGen.gif",
+                pTag1: "This is a node.js application that helps you generate a team profile (in html) with individual employee information on each card.",
+                pTag2: "",
+                link: "",
+                linkText: "",
+                pTag3: "Github repository: ",
+                github: "https://github.com/mdu830/Team-Profile-Generator"
+            },
+            {
+                image: "assets/image/noteTaker.gif",
+                pTag1: "This is a simple application that uses node js and express to store and retrieve notes from a heroku server.",
+                pTag2: "Here is a link to ",
+                link: "https://stark-sierra-82180.herokuapp.com/",
+                linkText: "Note Taker",
+                pTag3: "Github repository: ",
+                github: "https://github.com/mdu830/note-taker"
+            },
+            {
+                image: "assets/image/employeeTracker.gif",
+                pTag1: "This application uses node js to view, save, and delete data from a mySQL database of employees.",
+                pTag2: "",
+                link: "",
+                linkText: "",
+                pTag3: "Github repository: ",
+                github: "https://github.com/mdu830/employee-tracker"
+            },
+            {
                 image: "assets/image/eatdaburger.gif",
                 pTag1: "Eat Da Burger is a web application (deployed on Heroku) that utilizes Express, mySQL, orm, Handlebars, and Node.js",
                 pTag2: "Here is a link to ",
@@ -115,17 +151,25 @@ $(document).ready(function(){
                 linkText: "Eat-Da-Burger",
                 pTag3: "Github repository: ",
                 github: "https://github.com/mdu830/eat-da-burger"
-
-
             },
             {
                 image: "assets/image/travelBuddy.png",
-                pTag1: " Travel Buddy is a project I contributed to. It is a web application that utilizes multiple APIs to help the user find the best prices on flights and hotels.",
+                pTag1: "Travel Buddy is a project I contributed to. It is a web application that utilizes multiple APIs to help the user find the best prices on flights and hotels.",
                 pTag2: "Here is a link to ",
                 link: "http://kmh8827.github.io/project1-team2",
                 linkText: "Travel Buddy",
                 pTag3: "Github repository: ",
                 github: "https://github.com/kmh8827/project1-team2"
+
+
+            },
+            {
+                image: "assets/image/surfWeasel.gif",
+                pTag1: "Surf Weasel is another project that i contributed to. It is a web application that utilizes: express, my sql databases, html, css, jquery, javascript, node.js, and more. Surf Weasel is a surf report application where surfers can search and veiw weather conditions for the beach they want to visit ",
+                link: "https://surfweasel.herokuapp.com/",
+                linkText: "Surf Weasel",
+                pTag3: "Github repository: ",
+                github: "https://github.com/sr70079/surf-weasel"
 
 
             },
