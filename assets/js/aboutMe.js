@@ -118,7 +118,7 @@ $(document).ready(function(){
             },
             {
                 image: "assets/image/teamProfileGen.gif",
-                pTag1: "This is a node.js application that helps you generate a team profile (in html) with individual employee information on each card.",
+                pTag1: "The Team Profile Generator is a node.js application that helps you generate a team profile (in html) with individual employee information on each card.",
                 pTag2: "",
                 link: "",
                 linkText: "",
@@ -127,7 +127,7 @@ $(document).ready(function(){
             },
             {
                 image: "assets/image/noteTaker.gif",
-                pTag1: "This is a simple application that uses node js and express to store and retrieve notes from a heroku server.",
+                pTag1: "This is a simple Note Taker application that uses node js and express to store and retrieve notes from a heroku server.",
                 pTag2: "Here is a link to ",
                 link: "https://stark-sierra-82180.herokuapp.com/",
                 linkText: "Note Taker",
@@ -136,7 +136,7 @@ $(document).ready(function(){
             },
             {
                 image: "assets/image/employeeTracker.gif",
-                pTag1: "This application uses node js to view, save, and delete data from a mySQL database of employees.",
+                pTag1: "The Employee Tracker application uses node js to view, save, and delete data from a mySQL database of employees.",
                 pTag2: "",
                 link: "",
                 linkText: "",
