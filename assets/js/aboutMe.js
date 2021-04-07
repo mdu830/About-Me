@@ -166,6 +166,7 @@ $(document).ready(function(){
             {
                 image: "assets/image/surfWeasel.gif",
                 pTag1: "Surf Weasel is another project that i contributed to. It is a web application that utilizes: express, my sql databases, html, css, jquery, javascript, node.js, and more. Surf Weasel is a surf report application where surfers can search and veiw weather conditions for the beach they want to visit ",
+                pTag2: "Here is a link to ",
                 link: "https://surfweasel.herokuapp.com/",
                 linkText: "Surf Weasel",
                 pTag3: "Github repository: ",
